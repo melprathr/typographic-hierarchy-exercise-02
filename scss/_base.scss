@@ -1,0 +1,58 @@
+/* Base.scss */
+
+body {
+    //background-image: url(http://us.123rf.com/450wm/0mela/0mela1202/0mela120200043/12389469-vintage-seamless-pattern-with-watches-feathers-and-keys.jpg);
+    background-image: url(http://th03.deviantart.net/fs71/PRE/i/2012/062/e/6/free_background_37_by_zememz-d4rkhfj.jpg);
+    background-attachment: fixed;
+    //color: $color2;
+    //font-size: $base-font-size;
+    @include body-font;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+div {
+    //background-color: $background-color;
+    padding: 20px;
+}
+
+h1,h2,h3,h4 {
+    //color: $color;
+    @include headline-font;
+}
+
+h1 {
+    font-size: em(44px);
+    margin: em(19px) 0 em(25px) 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: em(38px);
+    margin: em(60px) 0 em(8px) 0;
+    //text-transform: uppercase;
+}
+
+h3 {
+    font-size: em(34px);
+    margin: em(30px) 0 em(5px) 0;
+}
+
+h4 {
+    font-size: em(24px);
+    margin:em(30px) 0 em(2px) 0;
+}
+
+i, em{
+    @include body-font-italic;
+}
+
+b, strong {
+    @include body-font-bold;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
