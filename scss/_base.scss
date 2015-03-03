@@ -7,6 +7,7 @@ body {
     color: $color;
     font-size: $base-font-size;
     @include body-font;
+    line-height: $line-height;
 	margin: 0 auto;
 	max-width: 600px;
 	width: 100%;
@@ -24,14 +25,14 @@ h1,h2,h3,h4 {
 
 h1 {
     font-size: em(44px);
-    line-height: em(19px);
-    margin: em(13px) 0 em(25px) 0;
+    line-height: em(21px);
+    margin: em(13px) 0 em(23px) 0;
     text-transform: uppercase;
 }
 
 h2 {
     font-size: em(38px);
-    margin: em(30px) 0 em(8px) 0;
+    margin: em(22px) 0 em(8px) 0;
     //text-transform: uppercase;
 }
 
