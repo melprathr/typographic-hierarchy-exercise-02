@@ -24,3 +24,14 @@
     font-style: normal;
     font-weight: 900;
 }
+
+$background-color: rgba(255, 255, 255, 0.66);
+$base-font-size: 19px;
+$color: #262626;
+$color2: #6a6a6a;
+$color3: #383737;
+$line-height: 1.45;
+
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
